@@ -26,3 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # angular-curso
+
+
+1 primeiro componente criado e expondo uma mensagem;
+comando para gerar componente ng g c name da pasta/name do componente
+logo ng g c title/tile
+
