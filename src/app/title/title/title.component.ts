@@ -5,7 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './title.component.html',
   styleUrls: ['./title.component.scss']
 })
-export class TitleComponent {
+export class TitleComponent  {
 
   public title: string = "Bem vindo ao curso de Angular"
+
+
+
+
 }
