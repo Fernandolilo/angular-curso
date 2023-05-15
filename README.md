@@ -32,3 +32,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 comando para gerar componente ng g c name da pasta/name do componente
 logo ng g c title/tile
 
+2 limpado o cod, e passando o router-outlet dentro de um template exluindo as outras parte do componente principal, como os testes HTML e css
+veja o ex: a baixo!
+
+@Component({
+  selector: 'app-root',
+ template: '<router-outlet></router-outlet>',
+})
+export class AppComponent {
+  title = 'aula-angular';
+}
